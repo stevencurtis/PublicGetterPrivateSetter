@@ -16,19 +16,21 @@ This article has been developed using Xcode 11.5, and Swift 5.2.4
 # The example 
 Imagine you have a `Person` class. You don't need a great imagination, because here is a possible `Class` right here HERE:
 ![personopen.png](Images/openperson.png)
-Thie thinking behind this is that someone's age is likely to change (I don't know about you, but my age changes every year, usually increasing). This means that I'm comfortable with the name being changed, but the age, not so much. 
+<sub>[Click for Gist](https://gist.github.com/stevencurtis/f3e35f7720ad548e723b8049ebebdfc2) <sub>
+
+The thinking behind this is that someone's age is likely to change (I don't know about you, but my age changes every year, usually increasing). This means that I'm comfortable with the name being changed, but the age, not so much. 
 
 WE SHOULDN'T BE ALLOWED TO CHANGE THE NAME DIRECTLY. 
 
 
 ## Solution number 1
 Use the private modifier for the age, but that means we can't access the age at all!
-How can we get over this impass?
+How can we get over this impasse?
 We can access the property through a function.
 ![personfunction.png](Images/personfunction.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/b381c0cc08bb6d45dc5eac311cd35301) <sub>
 
-Which is...ok...but this invovles us creating a new function just to access the property.
+Which is...ok...but this involves us creating a new function just to access the property.
 
 ## Solution number 2
 Here we go. 
@@ -36,11 +38,15 @@ Here we go.
 ![personset.png](Images/personset.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/bfc1c5eb5a8de03b1c98d6e4067a5324) <sub>
 
-This makes our `class` much closer to the initial `class`. 
+This makes our `class` much closer to the initial `class`.  While giving us the functionality that we want.
 
-
+That's an awesome!
 
 # Conclusion
-You might like to 
+Everytime we learn more features of a programming language we have more tools in order to solve software problems. 
+
+That is what this article is about - helping you to solve issues through implementation in Swift. 
+
+I hope this has helped you out!
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
